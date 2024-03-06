@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.container .box {
+  height: 35%;
+  width: 30%;
+  border-radius: 23px;
+  background-color: black;
+}
+.box {
+  padding: 25px 25px;
+  width: 65px;
+}
+h5 {
+  color: white;
+}
+
+.card-header-container {
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 65px;
+}
+
+.visa-logo-container {
+  display: flex;
+  align-items: center;
+}
+.visa-logo-container h5 {
+  margin-left: 12px;
+}
+.visa-name-number {
+  display: flex;
+  flex-direction: column;
+}
+h4 {
+  color: white;
+}
+.number {
+  color: white;
+}
+h6 {
+  color: white;
+}
+.box .visa-name-number {
+  margin: 35px;
+}
+.box .valid-date {
+  margin-left: 35px;
+}
+.visa-name-number .number {
+  margin-top: 12px;
+  font-size: 25px;
+}
+
+.name-date-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.name-date-container .name {
+  margin-left: 35px;
+}
+.valid-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
