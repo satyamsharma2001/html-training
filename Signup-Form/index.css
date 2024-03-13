@@ -16,6 +16,7 @@ body {
 }
 .wrapper {
   width: 100%;
+  height: 525px;
   background: white;
   border-radius: 5px;
 }
@@ -98,4 +99,21 @@ form .button input:hover {
 }
 .wrapper form .signup-link a:hover {
   text-decoration: underline;
+}
+.wrapper .row-gender {
+  margin-bottom: 12px;
+}
+.satyam {
+  width: 100%;
+  padding-left: 60px;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  border-color: #1abc9c;
+  box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 256, 0.25);
+}
+.satyam i {
+  width: 47px;
+  background: #16a085;
 }
