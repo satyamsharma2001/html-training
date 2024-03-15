@@ -15,8 +15,9 @@ body {
   margin: 170px auto;
 }
 .wrapper {
+  margin-top: -46px;
   width: 100%;
-  height: 525px;
+  height: 585px;
   background: white;
   border-radius: 5px;
 }
@@ -111,6 +112,7 @@ form .button input:hover {
   border-radius: 5px;
   font-size: 16px;
   border-color: #1abc9c;
+  transition: all 0.3s ease;
   box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 256, 0.25);
 }
 .satyam i {
