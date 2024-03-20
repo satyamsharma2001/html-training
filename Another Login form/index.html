@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Another Login Form</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="tittle">Login Form</div>
+      <form action="#">
+        <div class="field">
+          <input
+            type="text"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+            size="30"
+            required
+            oninvalid="this.setCustomValidity('Please enter your email')"
+          />
+          <label>Email Address</label>
+        </div>
+        <div class="field">
+          <input
+            type="password"
+            minlength="8"
+            required
+            oninvalid="this.setCustomValidity('Please enter your password')"
+          />
+          <label>Password</label>
+        </div>
+        <div class="pass-link"><a href="#">Forget Password</a></div>
+        <div class="field">
+          <input type="submit" value="Login" />
+        </div>
+        <div class="singhup-link">
+          Not a member? <a href="#">singhup now</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
